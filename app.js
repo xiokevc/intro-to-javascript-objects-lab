@@ -32,7 +32,9 @@ Exercise 3
 Solve Exercise 3 here:
 */
 
-game.difficulty = "Easy";
+game.difficulty = "Hard"
+
+console.log(game.difficulty)
 
 /*
 Exercise 4
@@ -45,6 +47,8 @@ Solve Exercise 4 here:
 
 const starter = pokemon.find(p => p.starter);
 game.party.push(starter);
+
+console.log(game.party.push(starter));
 
 /*
 Exercise 5
@@ -72,8 +76,6 @@ game.gyms.forEach(gym => {
     gym.completed = false;
   }
 });
-
-
 
 /*
 Exercise 7
